@@ -103,7 +103,6 @@ class CouchDBManager(object):
         server_url = app.config['COUCHDB_SERVER']
         server = couchdb.Server(server_url)
         if 'COUCHDB_USERNAME' in app.config and 'COUCHDB_PASSWORD' in app.config:
-            print (app.config['COUCHDB_USERNAME'], app.config['COUCHDB_PASSWORD'])
             server.resource.credentials = (app.config['COUCHDB_USERNAME'], app.config['COUCHDB_PASSWORD'])
         return server
 
