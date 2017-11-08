@@ -50,7 +50,7 @@ class CouchDBManager(object):
         and the ones on specific document classes.
         """
         return itertools.chain(self.general_viewdefs,
-                               *self.dc_viewdefs.itervalues())
+                               *self.dc_viewdefs.values())
     
     def add_document(self, dc):
         """
