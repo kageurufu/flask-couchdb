@@ -1,3 +1,5 @@
+This repository is defunct, and I recommend using https://github.com/ryanolson/flask-couchdb-schematics instead. I do not own flask-couchdb on pypi.
+
 flask-couchdb
 =============
 
